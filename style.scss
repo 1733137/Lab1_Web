@@ -1,0 +1,34 @@
+$primary: #222831;
+$secondary:#393E46;
+$white:#EEEEEE;
+$blue:#00ADB5;
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+#Nav {
+  background-color:$primary;
+  padding: 20px;
+}
+
+#Footer {
+  background: $primary;
+  padding: 20px;
+}
+
+#Blogs {
+  border: 5px solid $secondary; 
+}
+
+#Button {
+  background-color: $blue;
+  justify-content: space-between;
+  
+}
+
+#Titres {
+  background-color: $primary; 
+  color: $white; 
+  border: 5px solid $secondary;
+  text-align: center;  
+  font-weight: bold;   
+}
